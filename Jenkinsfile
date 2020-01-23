@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('CI Build and push snapshot') {
       steps {
-            sh "echo 'works'"
+        sh 'echo \'works\''
       }
     }
   }
